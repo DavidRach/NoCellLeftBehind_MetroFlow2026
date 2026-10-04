@@ -1,1 +1,25 @@
-# NoCellLeftBehind_MetroFlow2026
+## Abstract
+
+**Towards ‘No Cell Left Behind’: open-source toolsets to leverage Spectral Flow Cytometry’s full biological discovery potential**
+
+David Rach1
+
+Flow Cytometry Shared Resource, University of Maryland Greenebaum Comprehensive Cancer Center, Baltimore, USA 
+
+Spectral Flow Cytometry (SFC) with its increased analytical breadth and width, has been a game changer for researchers working with limited biospecimen, enabling greater profiling of immune systems, and responses to infection and immunization. While community adoption of the technology has been rapid, the capacity to analyze the resulting high-dimensional datasets has not similarly scaled.
+
+While analysis of a single cell population remains essentially unchanged, to fully explore the acquired datasets requires the use of unsupervised and semi-supervised algorithmic approaches. Existing methods, many originally intended for use with mass cytometry and single-cell RNA seq data, often struggle with SFC datasets due to increased number of events, and batch effects arising from the uncertainty inherent in the unmixing process. Consequently, the biological discovery potential of the technology remains under-leveraged for most datasets, with existing analysis just skimming the surface.
+
+To address these technology specific challenges, we have been developing open-source toolsets in R and Rust. These have allowed us to screen unmixing controls for tandem degradation and additional autofluorescence, as well as detect failures in instrument quality control. We highlight some of our on-going work in the context of a semi-supervised analysis of a rare clinical cohort of HIV-exposed uninfected (HEU) neonates, additionally leveraging existing tool-sets from the R/Bioconductor ecosystem to provide a more replicable framework in the analysis of multiple SFC panels.
+
+All the while, we contemplate the broader question: “What good is any tool, if the vast majority of the community is unable to use it?” 
+
+[Code](https://github.com/DavidRach/NoCellLeftBehind_MetroFlow2026) 
+Talk will be on **October 23, 2026**
+
+## License
+
+In our commitment to open-science and open-source, all teaching materials are freely offered under a [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/deed.en) license, while all code examples are offered under the [AGPL3-0](https://www.gnu.org/licenses/agpl-3.0.en.html) copyleft license. 
+
+<br>
+<br>
