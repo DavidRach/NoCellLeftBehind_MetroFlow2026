@@ -19,7 +19,7 @@ website:
       - text: "Home"
         href: https://davidrach.github.io/      
       - text: Slides
-        href: index.qmd
+        href: https://davidrach.github.io/NoCellLeftBehind_MetroFlow2026/Rach_NoCellsLeftBehind_MetroFlow2026.pdf
     right:
       - href: https://davidrach.github.io/about.html
         text: About

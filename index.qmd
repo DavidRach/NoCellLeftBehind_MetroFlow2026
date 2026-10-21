@@ -26,7 +26,8 @@ To address these technology specific challenges, we have been developing open-so
 
 All the while, we contemplate the broader question: “What good is any tool, if the vast majority of the community is unable to use it?” 
 
-[Code](https://github.com/DavidRach/NoCellLeftBehind_MetroFlow2026) 
+[Code](https://github.com/DavidRach/NoCellLeftBehind_MetroFlow2026)
+[Slides](/Rach_NoCellsLeftBehind_MetroFlow2026.pdf)
 Talk will be on **October 23, 2026**
 
 ## License
