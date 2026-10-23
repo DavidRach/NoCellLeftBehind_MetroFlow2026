@@ -12,5 +12,12 @@
     "title": "David Rach",
     "section": "License",
     "text": "License\nIn our commitment to open-science and open-source, all teaching materials are freely offered under a CC-BY-SA license, while all code examples are offered under the AGPL3-0 copyleft license."
+  },
+  {
+    "objectID": "QRCodes.html",
+    "href": "QRCodes.html",
+    "title": "QR Codes",
+    "section": "",
+    "text": "Setup Code\n\nlibrary(qrcode)\n\n\nQR_Helper &lt;- function(url, output, filename){\n\ncode &lt;- qr_code(url)\n\nTheFileName  &lt;- paste0(filename, \".svg\")\n\nStoreHere &lt;- file.path(output, TheFileName)\n\ngenerate_svg(code, filename = StoreHere)\n#plot(code)\n}\n\n\n\nSlides\nLink\n\nQR_Helper(url=\"https://davidrach.github.io/NoCellLeftBehind_MetroFlow2026/Rach_NoCellsLeftBehind_MetroFlow2026.pdf\",\n    output=\"outputs\", \n    filename=\"Slides\")\n\nhttps://davidrach.github.io/NoCellLeftBehind_MetroFlow2026/Rach_NoCellsLeftBehind_MetroFlow2026.pdf"
   }
 ]
